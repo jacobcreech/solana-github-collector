@@ -1,0 +1,98 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pino-*.log
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for instrumented libs
+lib-cov/
+
+# Coverage directory
+coverage/
+.nyc_output/
+
+# Testing
+.jest/
+.jest-cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build files
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+*.dockerignore.local
+
+# Database
+*.sql.gz
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+
+# PostgreSQL
+*.backup
+pgdata/
+postgres-data/
+
+# Redis
+dump.rdb
+appendonly.aof
+redis-data/
+
+# GCP & Cloud credentials
+*-key.json
+service-account*.json
+gcloud-credentials.json
+.gcp-credentials/
+credentials/
+
+# SSL/TLS certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+certs/
+ssl/
+
+# Temporary files
+tmp/
+temp/
+.cache/
